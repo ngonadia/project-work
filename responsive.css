@@ -1,0 +1,82 @@
+/************************************
+# slider image Responsive
+************************/
+@media (max-width: 1536px) {
+
+  .slider-wrapper .slider-item .slide-content,
+  .slider-controls .slider-pagination {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .slider-wrapper .slider-item .slide-content,
+  .slider-controls .slider-pagination {
+    width: 100%;
+  }
+
+  .slider-wrapper .slider-item .slide-content>* {
+    max-width: 66%;
+  }
+
+  .slider-navigations button {
+    top: unset;
+    bottom: -15px;
+    background: none;
+  }
+
+  .slider-navigations button:hover {
+    background: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper .slider-item .slide-content>* {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************
+# footer Responsive
+************************/
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+
+  footer .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .copyrightText {
+    padding: 8px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
